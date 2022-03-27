@@ -14,10 +14,22 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) =>{
-        console.log(product);
-        const newCart=[...cart,product];
+        // console.log(product);
+        if((cart.length<4)){
+            const newCart=[...cart,product];
         setCart(newCart);
+        }
 
+    }
+
+    const randomItem=()=>{
+        const myCart = [];
+        const randomItem=Math.floor(Math.random()*cart.length);
+        myCart.push(cart[randomItem]);
+        setCart(myCart);
+    }
+    const removeItem=()=>{
+        setCart([])
     }
 
     return (
@@ -38,9 +50,26 @@ const Shop = () => {
                     key={index}
                     
                     product={product}
+                    removeItem={removeItem}
                     ></Cart>)
                 }
                 {/* <p>Selected Item:{cart.length}</p> */}
+                <button className='btn' onClick={()=>randomItem()}>Choose 1 </button>
+                <button className='btn' onClick={()=>removeItem()}>Choose Again</button>
+            </div>
+            <div className="cart-container">
+                <h3>order summary</h3>
+                {
+                    cart.map((product,index) =><Cart 
+                    key={index}
+                    
+                    product={product}
+                    removeItem={removeItem}
+                    ></Cart>)
+                }
+                {/* <p>Selected Item:{cart.length}</p> */}
+                <button className='btn' onClick={()=>randomItem()}>Choose 1 </button>
+                <button className='btn' onClick={()=>removeItem()}>Choose Again</button>
             </div>
         </div>
     );
