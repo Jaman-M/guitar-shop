@@ -25,7 +25,7 @@ body{
 .question-ans-section{
     margin: 100px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:668px){
     .products-container{
         grid-template-columns: repeat(1, 1fr);
     }
