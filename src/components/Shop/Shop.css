@@ -1,3 +1,6 @@
+body{
+    background-color: beige;
+}
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -6,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
+    margin: 100px 50px;
 }
 .btn{
     display: inline-block;
@@ -18,9 +22,8 @@
 .btn:hover{
     background-color: orange;
 }
-.cart-container{
-    position: sticky;
-    top: 0;
+.question-ans-section{
+    margin: 100px;
 }
 @media screen and (max-width:600px){
     .products-container{

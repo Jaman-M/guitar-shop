@@ -6,7 +6,7 @@ const Header = () => {
         <nav className='header'>
             <h2>Guitar Shop</h2>
             <div>
-            <a href="">best guiter</a> <a href="">get discount</a> 
+            <a href="">Best guiter</a> <a href="">Get discount</a> 
             </div>
         </nav>
     );

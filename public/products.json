@@ -34,7 +34,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3972,
-    "img": "https://s.alicdn.com/@sc04/kf/Ha380713fae13447f899b66613f3c7664d.png_300x300.png",
+    "img": "https://s.alicdn.com/@sc04/kf/H1c5d3d91dd6244c29093f3b3df7aa8bft.jpg_300x300.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -72,19 +72,6 @@
     "ratingsCount": 4372,
     "img": "https://s.alicdn.com/@sc04/kf/H21b0f25c6d074102af0d5bfe9afcf66cH.jpg_300x300.jpg",
     "shipping": 19,
-    "quantity": 0
-  },
-  {
-    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
-    "category": "Men's Sneaker",
-    "name": "Guiter-7",
-    "seller": "ali",
-    "price": 226,
-    "stock": 1,
-    "ratings": 4,
-    "ratingsCount": 2870,
-    "img": "https://s.alicdn.com/@sc04/kf/Hcc045802e8114942baa39993fc8c979fO.jpg_300x300.jpg",
-    "shipping": 15,
     "quantity": 0
   },
   {
@@ -143,19 +130,6 @@
     "quantity": 0
   },
   {
-    "id": "b357e19b-4dd9-4fc7-b5c0-9ed5255464ba",
-    "name": "Guiter-b5",
-    "seller": "Ali",
-    "price": 63,
-    "stock": 46,
-    "ratings": 4,
-    "ratingsCount": 50,
-    "img": "https://s.alicdn.com/@sc04/kf/H52e8fab8b0554b2cbeb9f7cec8ae013aO.jpg_300x300.jpg",
-    "shipping": 20,
-    "quantity": 0
-  },
-  
-  {
     "id": "f54a4763-b8c2-4922-ba8d-80652a64f5bc",
     "name": "guiter-100",
     "seller": "Ali",
@@ -163,7 +137,7 @@
     "stock": 6,
     "ratings": 3,
     "ratingsCount": 2680,
-    "img": "https://s.alicdn.com/@sc04/kf/Ha380713fae13447f899b66613f3c7664d.png_300x300.png",
+    "img": "https://sc04.alicdn.com/kf/H40ac7a9442dd464e8bbe38d4528caa352.jpg",
     "shipping": 39,
     "quantity": 0
   }
