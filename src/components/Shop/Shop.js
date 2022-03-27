@@ -23,6 +23,7 @@ const Shop = () => {
     }
 
     const randomItem=()=>{
+
         const myCart = [];
         const randomItem=Math.floor(Math.random()*cart.length);
         myCart.push(cart[randomItem]);
